@@ -99,8 +99,8 @@ PM_START_TEXT = """
  Wᴀssᴜᴘ? Eʀɪᴋᴀ Aᴍᴀɴᴏ Hᴇʀᴇ
 𝐀 𝐦𝐨𝐝𝐮𝐥𝐚𝐫 𝐠𝐫𝐨𝐮𝐩 𝐦𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭 𝐛𝐨𝐭 𝐰𝐢𝐭𝐡 𝐮𝐬𝐞𝐟𝐮𝐥 𝐟𝐞𝐚𝐭𝐮𝐫𝐞𝐬. [ㅤ](https://telegra.ph/file/d54d49a7819c3c8b0d606.jpg)
 
-◑ *𝑼𝒑𝒕𝒊𝒎𝒆:* `{}`
-◑ `{}` *𝑯𝒐𝒎𝒊𝒆𝒔, 𝒂𝒄𝒓𝒐𝒔𝒔* `{}` *𝒄𝒉𝒂𝒕𝒔.*
+◑ 𝑼𝒑𝒕𝒊𝒎𝒆: {}
+◑ {} 𝑯𝒐𝒎𝒊𝒆𝒔, 𝒂𝒄𝒓𝒐𝒔𝒔 {} 𝒄𝒉𝒂𝒕𝒔.
 
 [𝐒𝐮𝐩𝐩𝐨𝐫𝐭](https://t.me/AstorSupport) | [𝐔𝐩𝐝𝐚𝐭𝐞𝐬](https://t.me/AstorPro)
 """
@@ -108,17 +108,17 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="❔𝑯𝒆𝒍𝒑 𝒂𝒏𝒅 𝑪𝒐𝒎𝒎𝒂𝒏𝒅𝒔",
+            text=""𝐇𝐞𝐥𝐩 & 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬❔️,
             callback_data="help_back",
         ),
         InlineKeyboardButton(
-            text="𝑫𝒆𝒗𝒆𝒍𝒐𝒑𝒆𝒓👤",
+            text="𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫👤",
             url="https://t.me/DarkkkCarnage",
         ),
     ],
     [
         InlineKeyboardButton(
-            text="𝑨𝒅𝒅 𝑬𝒓𝒊𝒌𝒂 𝒕𝒐 𝒀𝒐𝒖𝒓 𝑮𝒓𝒐𝒖𝒑 💥",
+            text="𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐂𝐡𝐚𝐭 💥",
             url="t.me/ErikaProBot?startgroup=true",
         ),
     ],
