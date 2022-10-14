@@ -245,10 +245,10 @@ def new_member(
                         [
                             [
                                 InlineKeyboardButton(
-                                    text="☎️ Support", url="https://t.me/IDNCoderX"
+                                    text="☎️ Support", url="https://t.me/AstorSupport"
                                 ),
                                 InlineKeyboardButton(
-                                    text="Updates 📡", url="https://t.me/IDNCoder"
+                                    text="Updates 📡", url="https://t.me/AstorPro"
                                 ),
                             ]
                         ],
