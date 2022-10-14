@@ -265,11 +265,11 @@ def start(update: Update, context: CallbackContext):
                     [
                         InlineKeyboardButton(
                             text="☎️ Support",
-                            url="https://t.me/IDNCoderX",
+                            url="https://t.me/AstorSupport",
                         ),
                         InlineKeyboardButton(
                             text="Updates 📡",
-                            url="https://t.me/IDNCoder",
+                            url="https://t.me/AstorPro",
                         ),
                     ]
                 ]
@@ -696,6 +696,6 @@ def main():
 
 
 if __name__ == "__main__":
-    LOGGER.info(f"[Zeldris] Successfully loaded modules: {str(ALL_MODULES)}")
+    LOGGER.info(f"[Erika] Successfully loaded modules: {str(ALL_MODULES)}")
     client.start(bot_token=TOKEN)
     main()
