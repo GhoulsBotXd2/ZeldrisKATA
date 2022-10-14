@@ -696,6 +696,6 @@ def main():
 
 
 if __name__ == "__main__":
-    LOGGER.info(f"[Erika] Successfully loaded modules: {str(ALL_MODULES)}")
+    LOGGER.info(f"[Zeldris] Successfully loaded modules: {str(ALL_MODULES)}")
     client.start(bot_token=TOKEN)
     main()
