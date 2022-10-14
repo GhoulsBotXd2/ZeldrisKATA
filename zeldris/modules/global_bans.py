@@ -420,7 +420,7 @@ def __user_info__(user_id):
         user = db.get_gbanned_user(user_id)
         if user["reason"]:
             text += f"\nReason: {html.escape(user['reason'])}"
-            text += "\n\nAppeal at @IDNCoderX if you think it's invalid."
+            text += "\n\nAppeal at @AstorSupport if you think it's invalid."
     else:
         text = text.format("No")
     return text
@@ -443,7 +443,7 @@ Spam shield uses @Spamwatch API and Global bans to remove Spammers as much as po
 *What is SpamWatch?*
 
 SpamWatch maintains a large constantly updated ban-list of spambots, trolls, bitcoin spammers and unsavoury 
-characters. Zeldris will constantly help banning spammers off from your group automatically So, you don't have to 
+characters. Erika will constantly help banning spammers off from your group automatically So, you don't have to 
 worry about spammers storming your group[.](https://telegra.ph/file/c1051d264a5b4146bd71e.jpg) 
 """
 
