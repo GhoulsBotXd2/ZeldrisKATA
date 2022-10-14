@@ -93,41 +93,39 @@ def get_readable_time(seconds: int) -> str:
 
 
 # sourcery skip: raise-specific-error
-ZELDRIS_IMG = "https://telegra.ph/file/1fa00785f30375c0c1b50.jpg"
+ZELDRIS_IMG = "https://telegra.ph/file/d54d49a7819c3c8b0d606.jpg"
 
 PM_START_TEXT = """
-Hey there! my name is *{}*. 
-A modular group management bot with useful features. [ㅤ](https://telegra.ph/file/fed9ba09e9add9b197c21.png)
+ Wᴀssᴜᴘ? Eʀɪᴋᴀ Aᴍᴀɴᴏ Hᴇʀᴇ
+𝐀 𝐦𝐨𝐝𝐮𝐥𝐚𝐫 𝐠𝐫𝐨𝐮𝐩 𝐦𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭 𝐛𝐨𝐭 𝐰𝐢𝐭𝐡 𝐮𝐬𝐞𝐟𝐮𝐥 𝐟𝐞𝐚𝐭𝐮𝐫𝐞𝐬. [ㅤ](https://telegra.ph/file/fed9ba09e9add9b197c21.png)
 
-◑ *Uptime:* `{}`
-◑ `{}` *Users, across* `{}` *chats.*
+◑ *𝑼𝒑𝒕𝒊𝒎𝒆:* `{}`
+◑ `{}` *𝑯𝒐𝒎𝒊𝒆𝒔, 𝒂𝒄𝒓𝒐𝒔𝒔* `{}` *𝒄𝒉𝒂𝒕𝒔.*
 
-Any issues or need help related to me?
-Join our official group [IDNCoderX](https://t.me/IDNCoderX).
-Click help button to know my commands!
+[𝐒𝐮𝐩𝐩𝐨𝐫𝐭](https://t.me/AstorSupport) | [𝐔𝐩𝐝𝐚𝐭𝐞𝐬](https://t.me/AstorPro)
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="❔ Help",
+            text="❔𝑯𝒆𝒍𝒑 𝒂𝒏𝒅 𝑪𝒐𝒎𝒎𝒂𝒏𝒅𝒔",
             callback_data="help_back",
         ),
         InlineKeyboardButton(
-            text="Updates 📢",
-            url="https://t.me/IDNCoder",
+            text="𝑫𝒆𝒗𝒆𝒍𝒐𝒑𝒆𝒓👤",
+            url="https://t.me/DarkkkCarnage",
         ),
     ],
     [
         InlineKeyboardButton(
-            text="Add Zeldris to Your Group 👥",
-            url="t.me/ZeldrisRobot?startgroup=true",
+            text="𝑨𝒅𝒅 𝑬𝒓𝒊𝒌𝒂 𝒕𝒐 𝒀𝒐𝒖𝒓 𝑮𝒓𝒐𝒖𝒑 💥",
+            url="t.me/ErikaProBot?startgroup=true",
         ),
     ],
 ]
 
 HELP_STRINGS = f"""
-Hello there! My name is *{dispatcher.bot.first_name}*.
+Hello there! My name is *Erika*.
 I'm a modular group management bot with a few fun extras! Have a look at the following for an idea of some of \
 the things I can help you with.
 *Main* commands available:
