@@ -96,7 +96,7 @@ def get_readable_time(seconds: int) -> str:
 ZELDRIS_IMG = "https://telegra.ph/file/d54d49a7819c3c8b0d606.jpg"
 
 PM_START_TEXT = """
- Wᴀssᴜᴘ? Eʀɪᴋᴀ Aᴍᴀɴᴏ Hᴇʀᴇ
+ Wᴀssᴜᴘ? *{}* Hᴇʀᴇ
 𝐀 𝐦𝐨𝐝𝐮𝐥𝐚𝐫 𝐠𝐫𝐨𝐮𝐩 𝐦𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭 𝐛𝐨𝐭 𝐰𝐢𝐭𝐡 𝐮𝐬𝐞𝐟𝐮𝐥 𝐟𝐞𝐚𝐭𝐮𝐫𝐞𝐬. [ㅤ](https://telegra.ph/file/d54d49a7819c3c8b0d606.jpg)
 
 ◑ *𝑼𝒑𝒕𝒊𝒎𝒆:* `{}`
