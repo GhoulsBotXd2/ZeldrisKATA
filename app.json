@@ -49,8 +49,8 @@
     },
     "SQLALCHEMY_DATABASE_URI": {
       "description": "Your postgres sql db, empty this field if you dont have one.ex: sqldbtype://username:pw@hostname:port/db_name",
-      "required": true,
-      "value": "postgres://rzgeatqi:CLn2r-lMpIzyKF9gRv5oPPHwLZRL1U-e@suleiman.db.elephantsql.com/rzgeatqi"
+      "required": false,
+      "value": ""
     },
     "OWNER_ID": {
       "description": "Your user ID as an integer.",
