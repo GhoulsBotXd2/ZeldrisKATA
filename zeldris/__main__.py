@@ -108,7 +108,7 @@ Kon'nichiwa,*{}* Here
 buttons = [
     [
         InlineKeyboardButton(
-            text="𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐂𝐡𝐚𝐭 💥",
+            text="🫶 Add Me To Your Groups",
             url="t.me/ErikaProBot?startgroup=true",
         ),
     ],
@@ -124,7 +124,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text=" 🌻 Groups", url=f"https://t.me/ScoutXLegion",
+            text=" 🌻 Chat", url=f"https://t.me/ScoutXLegion",
         ),
         InlineKeyboardButton(
             text=" 🔐 Help ", callback_data="help_back"),
