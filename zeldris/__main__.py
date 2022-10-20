@@ -96,33 +96,40 @@ def get_readable_time(seconds: int) -> str:
 ZELDRIS_IMG = "https://telegra.ph/file/d54d49a7819c3c8b0d606.jpg"
 
 PM_START_TEXT = """
- Wᴀssᴜᴘ? *{}* Hᴇʀᴇ
-𝐀 𝐦𝐨𝐝𝐮𝐥𝐚𝐫 𝐠𝐫𝐨𝐮𝐩 𝐦𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭 𝐛𝐨𝐭 𝐰𝐢𝐭𝐡 𝐮𝐬𝐞𝐟𝐮𝐥 𝐟𝐞𝐚𝐭𝐮𝐫𝐞𝐬. [ㅤ](https://telegra.ph/file/d54d49a7819c3c8b0d606.jpg)
-
-◑ *𝑼𝒑𝒕𝒊𝒎𝒆:* `{}`
-◑ `{}` *𝑯𝒐𝒎𝒊𝒆𝒔, 𝒂𝒄𝒓𝒐𝒔𝒔* `{}` *𝒄𝒉𝒂𝒕𝒔.*
-
-[𝐒𝐮𝐩𝐩𝐨𝐫𝐭](https://t.me/AstorSupport) | [𝐔𝐩𝐝𝐚𝐭𝐞𝐬](https://t.me/AstorPro)
+Kon'nichiwa,*{}* Here
+*I am an Anime themed advance group management bot with a lot of awesome Features.* [ㅤ](https://telegra.ph/file/d54d49a7819c3c8b0d606.jpg)
+➖➖➖➖➖➖➖➖➖➖➖➖➖
+◑ *Uptime:* `{}`
+◑ `{}` *users, across* `{}` *chats.*
+➖➖➖➖➖➖➖➖➖➖➖➖➖
+➛ *Try The Help Buttons Below To Know My Abilities* ××
 """
 
 buttons = [
-    [
-        InlineKeyboardButton(
-            text="𝐇𝐞𝐥𝐩 & 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬❔️",
-            callback_data="help_back",
-        ),
-        InlineKeyboardButton(
-            text="𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫👤",
-            url="https://t.me/DarkkkCarnage",
-        ),
-    ],
     [
         InlineKeyboardButton(
             text="𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐂𝐡𝐚𝐭 💥",
             url="t.me/ErikaProBot?startgroup=true",
         ),
     ],
-]
+    [
+        InlineKeyboardButton(
+            text=" 🏥 Support", url=f"https://t.me/AstorSupport",
+        ),
+        InlineKeyboardButton(
+            text=" 🎉 Updates", url=f"https://t.me/AstorPro",
+        ),
+        InlineKeyboardButton(
+            text=" 📮 Logs", url=f"https://t.me/ErikaLogs"),
+    ],
+    [
+        InlineKeyboardButton(
+            text=" 🌻 Groups", url=f"https://t.me/ScoutXLegion",
+        ),
+        InlineKeyboardButton(
+            text=" 🔐 Help ", callback_data="help_back"),
+    ],
+  ]
 
 HELP_STRINGS = f"""
 Hello there! My name is *Erika*.
