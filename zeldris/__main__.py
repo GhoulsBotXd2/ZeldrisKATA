@@ -93,7 +93,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 # sourcery skip: raise-specific-error
-ZELDRIS_IMG = "https://telegra.ph/file/d54d49a7819c3c8b0d606.jpg"
+ZELDRIS_IMG = "https://telegra.ph/file/52442f4952cbd41c683f9.jpg"
 
 PM_START_TEXT = """
 Kon'nichiwa,*{}* Here
@@ -109,7 +109,7 @@ buttons = [
     [
         InlineKeyboardButton(
             text="🫶 Add Me To Your Groups",
-            url="t.me/ErikaProBot?startgroup=true",
+            url="t.me/RemCuteBot?startgroup=true",
         ),
     ],
     [
@@ -120,11 +120,11 @@ buttons = [
             text=" 🎉 Updates", url=f"https://t.me/AstorPro",
         ),
         InlineKeyboardButton(
-            text=" 📮 Logs", url=f"https://t.me/ErikaLogs"),
+            text=" 📮 Logs", url=f"https://t.me/AstorGban"),
     ],
     [
         InlineKeyboardButton(
-            text=" 🌻 Chat", url=f"https://t.me/ScoutXLegion",
+            text=" 🌻 Chat", url=f"https://t.me/ANMIxCAFE",
         ),
         InlineKeyboardButton(
             text=" 🔐 Help ", callback_data="help_back"),
@@ -132,7 +132,7 @@ buttons = [
   ]
 
 HELP_STRINGS = f"""
-Hello there! My name is *Erika*.
+Hello there! My name is *Rem*.
 I'm a modular group management bot with a few fun extras! Have a look at the following for an idea of some of \
 the things I can help you with.
 *Main* commands available:
