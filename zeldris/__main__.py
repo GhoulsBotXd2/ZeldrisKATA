@@ -97,7 +97,7 @@ ZELDRIS_IMG = "https://telegra.ph/file/52442f4952cbd41c683f9.jpg"
 
 PM_START_TEXT = """
 Kon'nichiwa,*{}* Here
-*I am an Anime themed advance group management bot with a lot of awesome Features.* [ㅤ](https://telegra.ph/file/d54d49a7819c3c8b0d606.jpg)
+*I am an Anime themed advance group management bot with a lot of awesome Features.* [ㅤ](https://telegra.ph/file/52442f4952cbd41c683f9.jpg)
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 ◑ *Uptime:* `{}`
 ◑ `{}` *users, across* `{}` *chats.*
