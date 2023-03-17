@@ -120,11 +120,11 @@ buttons = [
             text=" 🎉 Updates", url=f"https://t.me/AstorPro",
         ),
         InlineKeyboardButton(
-            text=" 📮 Logs", url=f"https://t.me/AstorGban"),
+            text=" 📮 Logs", url=f"https://t.me/Rem_Support"),
     ],
     [
         InlineKeyboardButton(
-            text=" 🌻 Chat", url=f"https://t.me/ANMIxCAFE",
+            text=" 🌻 Chat", url=f"https://t.me/animetalks_pvtltd",
         ),
         InlineKeyboardButton(
             text=" 🔐 Help ", callback_data="help_back"),
