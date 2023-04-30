@@ -93,11 +93,11 @@ def get_readable_time(seconds: int) -> str:
 
 
 # sourcery skip: raise-specific-error
-ZELDRIS_IMG = "https://telegra.ph/file/52442f4952cbd41c683f9.jpg"
+ZELDRIS_IMG = "https://te.legra.ph/file/3a9fdc033335d94636ef6.jpg"
 
 PM_START_TEXT = """
 Kon'nichiwa,*{}* Here
-*I am an Anime themed advance group management bot with a lot of awesome Features.* [ㅤ](https://telegra.ph/file/52442f4952cbd41c683f9.jpg)
+*I am an Anime themed advance group management bot with a lot of awesome Features.* [ㅤ](https://te.legra.ph/file/3a9fdc033335d94636ef6.jpg)
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 ◑ *Uptime:* `{}`
 ◑ `{}` *users, across* `{}` *chats.*
@@ -114,17 +114,17 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text=" 🏥 Support", url=f"https://t.me/AstorSupport",
+            text=" 🏥 Support", url=f"https://t.me/RealmsBotSupport",
         ),
         InlineKeyboardButton(
-            text=" 🎉 Updates", url=f"https://t.me/AstorPro",
+            text=" 🎉 Updates", url=f"https://t.me/Katakuri_Updates",
         ),
         InlineKeyboardButton(
-            text=" 📮 Logs", url=f"https://t.me/Rem_Support"),
+            text=" 📮 Logs", url=f"https://t.me/KatakuriLogs"),
     ],
     [
         InlineKeyboardButton(
-            text=" 🌻 Chat", url=f"https://t.me/animetalks_pvtltd",
+            text=" 🌻 Chat", url=f"https://t.me/RealmsBotSupport",
         ),
         InlineKeyboardButton(
             text=" 🔐 Help ", callback_data="help_back"),
@@ -272,11 +272,11 @@ def start(update: Update, context: CallbackContext):
                     [
                         InlineKeyboardButton(
                             text="☎️ Support",
-                            url="https://t.me/AstorSupport",
+                            url="https://t.me/RealmsBotSupport",
                         ),
                         InlineKeyboardButton(
                             text="Updates 📡",
-                            url="https://t.me/AstorPro",
+                            url="https://t.me/Katakuri_Updates",
                         ),
                     ]
                 ]
